@@ -75,4 +75,8 @@ graph LR;
 ``` 
 
 ###Как читать git status
-
+Большинство файлов в типичном проекте будут находиться в состоянии tracked (то есть закоммичены и не изменены после коммита).
+git status показывает только следующие состояния файлов:
+staged (Changes to be committed в выводе git status);
+modified (Changes not staged for commit);
+untracked (Untracked files).
